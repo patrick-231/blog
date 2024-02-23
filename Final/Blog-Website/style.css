@@ -1,0 +1,199 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+/* Header */
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 0px;
+  }
+.navbar{
+    background-color: #242424;
+    padding: 25px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.navbar a{
+    font-size:larger;
+    text-decoration: none;
+    color: white;
+    font-family: 16px Arial, Helvetica, sans-serif;
+}
+.navbar a:hover{
+    text-transform: uppercase;
+}
+
+/* Main */
+ .blog.title h1{
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+} 
+.author.image{
+    margin: 40px;
+    border-radius: 21rem;
+}
+.author.profile{
+    display: flex;
+    align-items: center;
+}
+.author.profile p{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-left: 3rem;
+    
+}
+.article.one{
+    color: white;
+    margin: 5rem;
+}
+.article.one p{
+    font-size: 25px;
+    line-height: 1.9;
+}
+.article.two{
+    background-color: #ffffff;
+    margin: 5rem;
+    padding: 5rem;
+}
+.article.two h2{
+    padding-bottom:  2rem;
+    text-align: center;
+}
+.article.two p {
+    font-size: 25px;
+    line-height: 1.9;  
+}
+.article.two li{
+    font-size: 20px;
+    line-height: 1.9rem;
+}
+.article.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    margin: 5rem;
+    padding: 5rem
+}
+.popular.blogs h2{
+    text-align: center;
+    padding:  2rem;
+
+}
+.mpora{
+   background-color: #f6f6f6; 
+   padding: 1rem;
+}
+.mpora p {
+    font-size: 25px;
+    line-height: 1.9;
+}
+.mpora.img{
+    margin: 5rem;
+}
+.surfdome{
+    background-color: #f6f6f6; 
+    padding: 1rem;
+  
+}
+.surfdome.img{
+    margin: 5rem;
+}
+.moveunitedsport{
+    background-color: #f6f6f6; 
+    padding: 1rem;
+}
+.moveunitedsport.img{
+    margin: 5rem;
+}
+.conclusion h3{
+    font-size: 25px;
+    color: white;
+    margin: 3rem;
+}
+.conclusion p{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-left: 3rem;
+    line-height: 1.9;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-section {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .contact-section h3{
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-content p {
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    margin:19px;
+    text-decoration: none;
+    color:black ;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+    
